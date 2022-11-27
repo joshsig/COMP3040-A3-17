@@ -47,4 +47,4 @@ http://find-restaurant-nearby/api/l/?postal-code = R3t
  - Josh Sigurdson, 7858405
  - Vedant Pulahru, 7876784
  - Taylor Roy
- - Mansimar Bhasin
+ - Mansimar Bhasin, 7875461
