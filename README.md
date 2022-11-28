@@ -36,7 +36,7 @@ https://find-restaurant-nearby/api/restaurant?cuisine=mexican
 
 #### 3) delivery (integer)
 
-0 or 1 (0 default). 0 for delivery not required. 1 for delivery required.
+0 or 1 (0 default). 0 for delivery optional. 1 for delivery required.
 <br>(Optional)
 
 ```
@@ -48,16 +48,20 @@ https://find-restaurant-nearby/api/restaurant?deliver=true
     {
         "results": [
             {
-                "restaurant-name",
-                "address",
-                "cuisine",
-                "delivery",
+                "restaurant-name"
+                "street-address"
+                "city"
+                "postal-code"
+                "cuisine"
+                "delivery"
             },
             {
-                "restaurant-name",
-                "address",
-                "cuisine",
-                "delivery",
+                "restaurant-name"
+                "street-address"
+                "city"
+                "postal-code"
+                "cuisine"
+                "delivery"
             },
             ...
         ]
@@ -68,7 +72,32 @@ https://find-restaurant-nearby/api/restaurant?deliver=true
 
 ### Request
 
+`https://find-restaurant-nearby/api/restaurant?postal-code=r3t&cuisine=mexican&delivery=0`
+
 ### Response
+
+    {
+        "results": [
+            {
+                "restaurant-name":"La Roca",
+                "street-address":"155 Smith St"
+                "city":"Winnipeg"
+                "postal-code":"R3C 1J7",
+                "cuisine":"Mexican",
+                "delivery":"no",
+            },
+            {
+                "restaurant-name":"Habanero Sombrero",
+                "address":"212-1 Forks Market Rd",
+                "city":"Winnipeg"
+                "postal-code":"R3C 4L9",
+                "cuisine":"Mexican",
+                "delivery":"yes",
+            },
+            ...
+        ]
+        "status": "OK"
+    }
 
 
 ## Group 17
