@@ -21,27 +21,15 @@ Locate a nearby restaurant by entering the postal code, cuisine and whether or n
 First three digits of the requested postal code.
 <br>(Required)
 
-```
-https://find-restaurant-nearby/api/restaurant?postal-code=R3t
-```
-
 #### 2) cuisine (string)
 
 The type of cuisine requested, in text. 
 <br>(Optional)
 
-```
-https://find-restaurant-nearby/api/restaurant?cuisine=mexican
-```
-
 #### 3) delivery (integer)
 
 0 or 1 (0 default). 0 for delivery optional. 1 for delivery required.
 <br>(Optional)
-
-```
-https://find-restaurant-nearby/api/restaurant?deliver=true
-```
 
 ## Resource
 
@@ -72,7 +60,7 @@ https://find-restaurant-nearby/api/restaurant?deliver=true
 
 ### Request
 
-`https://find-restaurant-nearby/api/restaurant?postal-code=r3t&cuisine=mexican&delivery=0`
+`https://find-restaurant-nearby/api/restaurant?postal-code=r3c&cuisine=mexican&delivery=0`
 
 ### Response
 
