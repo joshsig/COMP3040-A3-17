@@ -46,5 +46,5 @@ https://find-restaurant-nearby/api/restaurant?deliver=true
 ## Group 17
  - Josh Sigurdson, 7858405
  - Vedant Pulahru, 7876784
- - Taylor Roy
+ - Taylor Roy, 7812747
  - Mansimar Bhasin, 7875461
