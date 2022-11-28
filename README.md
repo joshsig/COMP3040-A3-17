@@ -1,4 +1,4 @@
-Restaurant API
+Find Restaurant API
 =================
 
 ## Description
