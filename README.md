@@ -16,17 +16,17 @@ Locate a nearby restaurant by entering the postal code, cuisine and whether or n
 
 ### Parameters
 
-#### 1) postal-code (string)
+#### 1) Postal-code (String)
 
 First three digits of the requested postal code. \
 _(Required)_
 
-#### 2) cuisine (string)
+#### 2) Cuisine (String)
 
 The type of cuisine requested, in text. \
 _(Optional)_
 
-#### 3) delivery (integer)
+#### 3) Delivery (Integer)
 
 0 or 1 (0 default). 0 for delivery optional. 1 for delivery required. \
 _(Optional)_
@@ -107,7 +107,7 @@ _(Optional)_
 * "ERROR_404": indicates server side error. 
 
 ## Group 17
- - Josh Sigurdson,  7858405
- - Vedant Pulahru,  7876784
- - Taylor Roy,      7812747
- - Mansimar Bhasin, 7875461
+ - [Josh Sigurdson](https://github.com/joshsig),  7858405
+ - [Vedant Pulahru](https://github.com/Vedant1206),  7876784
+ - [Taylor Roy](https://github.com/TayRoy),      7812747
+ - [Mansimar Bhasin](https://github.com/mansimars), 7875461
