@@ -2,12 +2,10 @@ Find Restaurant API
 =================
 
 ## Description
----
 
 Find Restaurant API is an online tool that provides information of the nearest restaurant within the province of Manitoba. The purpose of this API is to find a suitable restaurant for the user according to desired cuisine, distance and delivery options.
 
 ## Endpoint
----
 
 _Restaurant API uses REST API with `GET` request._ 
 
@@ -34,7 +32,6 @@ _(Optional)_
 _(Optional)_
 
 ## Resource
----
 
     {
         "results": [
@@ -60,7 +57,6 @@ _(Optional)_
     }
 
 ## Sample Request and Response
----
 
 
 ### Request
@@ -93,7 +89,6 @@ _(Optional)_
     }
 
 ## Status Code
----
 
 
 ## Group 17
