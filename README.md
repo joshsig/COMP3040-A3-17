@@ -59,14 +59,14 @@ _(Optional)_
 ## Sample Request and Response
 
 
-### Request
+### Request 1
 
 `https://find-restaurant-nearby/api/restaurant?postal-code=r3c&cuisine=mexican&delivery=0`
 
 ### Response
 
     {
-        "results": [
+        "results": {
             {
                 "restaurant-name":"La Roca",
                 "street-address":"155 Smith St"
@@ -84,15 +84,30 @@ _(Optional)_
                 "delivery":"yes",
             },
             ...
-        ]
+        }
         "status": "OK"
     }
 
-## Status Code
+### Request 2
 
+`https://find-restaurant-nearby/api/restaurant?postal-code=r3c&cuisine=mexican&delivery=true`
+
+### Response
+
+    {
+        "results": {}
+        "status": "INVALID_DELIVERY"
+    }
+
+
+## Status Code
+* "OK": indicates no errors;
+* "INVALID_REQUEST": indicates postal-code is missing or invalid;
+* "INVALID_DELIVERY": indicates wrong format for delivery;
+* "ERROR_404": indicates server side error. 
 
 ## Group 17
- - Josh Sigurdson, 7858405
- - Vedant Pulahru, 7876784
- - Taylor Roy, 7812747
+ - Josh Sigurdson,  7858405
+ - Vedant Pulahru,  7876784
+ - Taylor Roy,      7812747
  - Mansimar Bhasin, 7875461
